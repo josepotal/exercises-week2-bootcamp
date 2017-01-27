@@ -1,0 +1,23 @@
+ * {border: 1px solid red !important;}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  background: white;
+  padding: 10px;
+}
+
+body {
+  background-image: radial-gradient(red,yellow);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 3px solid black;
+}
+
+nav ul {
+
+}

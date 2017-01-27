@@ -1,0 +1,36 @@
+.box {
+  background: blue;
+  color: white;
+  border: 1px solid black;
+  padding:10px;
+  width: 50px;
+}
+
+.container {
+  height: 500px;
+  border: 1px solid red;
+  padding: 5px;
+  display: flex;    /*it is necessary to have access to the other properties*/
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: space-around; /*space-between*/
+  align-items: flex-start; /*baseline, start, end*/
+  align-content: flex-start;
+}
+
+.box-5 {
+  background: red;
+  order: -1;
+  align-self: flex-end;
+}
+
+.box-10 {
+  background: green;
+  order: 1;
+  align-self: center;
+}
+
+.box-14 {
+  background: brown;
+  order: 2;
+}

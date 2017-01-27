@@ -1,0 +1,53 @@
+#imp {
+  color: green
+}
+
+.highlight strong {
+  background-color: blue;
+  color: purple;
+  font-size: 36px;
+}
+
+#explanation {
+  border: 2px solid blue;
+}
+
+li:last-child {
+  background: red;
+  padding-left: 30px
+}
+
+li:first-child {
+  background: purple;
+  padding-left: 20px
+}
+
+p {
+  color: #ff00ff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-style: italic 
+}
+
+ul {
+  border: 3px solid black;
+  width: 50%;
+}
+
+div {
+  margin: 20px;
+  padding: 10px;
+  border: 5px solid green;
+  border-radius:60px
+}
+
+span {
+  display: block;
+  color: blue;
+  background-color: red;
+  width: 50px;
+}
+
+/* * {
+   border: 1px solid red !important;
+}*/

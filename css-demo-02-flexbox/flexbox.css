@@ -1,0 +1,32 @@
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+.box {
+  background: blue;
+  color: white;
+  border: 1px solid black;
+  padding:10px;
+  width: 50px;
+}
+
+.container {
+  height: 500px;
+  border: 1px solid red;
+  padding: 5px;
+  display: flex;    /*it is necessary to have access to the other properties*/
+  flex-direction: row;  /*problems here*/
+  flex-wrap: wrap;
+  justify-content: space-around; /*space-between*/
+  align-items: center; /*baseline, start, end*/
+  align-content: flex-start;
+}
+.box-5{
+background: red;
+order: -1;
+}
+.box-10 {
+background: green;
+order: 1;
+}
+.box-14 {
+background: brown;
+order: 2;
+}
